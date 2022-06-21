@@ -22,7 +22,7 @@ fun main() {
         println(values[index])
     }
     println("-------------------")
-    values.sort() //Exibe numeros em ordem crescente em uma lista
+    values.sort() //'sorte' exibe numeros em ordem crescente em uma lista
     for (valor in values){
         println(valor)
     }
