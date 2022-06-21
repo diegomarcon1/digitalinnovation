@@ -14,6 +14,7 @@ fun main(){
     val salarioMaiorQue2500 = salarios.filter { it > 2500.0 } //A função 'filter' faz um filtro conforme valor indicado
     salarioMaiorQue2500.forEach{
         println(it)
+
     }
 
 }
