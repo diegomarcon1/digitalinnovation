@@ -6,8 +6,8 @@ fun main(){
         println(salario)
     }
     println("-------------")
-    println("Maior salario : ${salarios.max()}") //Busca e exibe o maior valor
-    println("Menor salario : ${salarios.min()}") //Busca e exibe o menor valor
+    println("Maior salario : ${salarios.maxOrNull()}") //Busca e exibe o maior valor **(Foi refatorado de 'max' 'para maxOrNull')
+    println("Menor salario : ${salarios.minOrNull()}") //Busca e exibe o menor valor **(Foi refatorado de 'min' 'para minOrNull')
     println("Media dos salarios :${salarios.average()}") //Faz a media dos valores e imprime
 
     println("-------------")
