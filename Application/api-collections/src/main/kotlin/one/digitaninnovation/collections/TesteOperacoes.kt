@@ -14,7 +14,15 @@ fun main(){
     val salarioMaiorQue2500 = salarios.filter { it > 2500.0 } //A função 'filter' faz um filtro conforme valor indicado
     salarioMaiorQue2500.forEach{
         println(it)
-
     }
+    println("-------------")
+    println(salarios.count{it in 2000.0..5000.0})//Contar valores utilizando o 'count' dentro de um range '2000.0..5000.0'
+
+    println("-------------")
+    println(salarios.find{it == 2700.0}) //Buscando um valor exato e imprimir na tela
+    println(salarios.find{it == 200.0}) //O valor sera 'null' pois não há este valor na lista
+
+    println("-------------")
+    println(salarios.any{it == 2000.0}) //Exibe 'true' or 'false' se for encontrado o valor ou não
 
 }
