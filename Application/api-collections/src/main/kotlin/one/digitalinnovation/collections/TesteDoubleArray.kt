@@ -1,4 +1,4 @@
-package one.digitaninnovation.collections
+package one.digitalinnovation.collections
 
 import kotlin.math.sqrt
 

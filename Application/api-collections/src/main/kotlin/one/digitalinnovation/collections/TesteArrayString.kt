@@ -1,4 +1,4 @@
-package one.digitaninnovation.collections
+package one.digitalinnovation.collections
 
 fun main(){
     val nomes = Array(4){""}
